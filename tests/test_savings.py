@@ -1,7 +1,7 @@
 import sys, os
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from savings_made_simple import get_summary, calculate_week, read_csv, create_csv_if_not_exists, update_start_finish_csv, append_to_csv
+from src.savings_made_simple import get_summary, calculate_week, read_csv, create_csv_if_not_exists, update_start_finish_csv, append_to_csv
 
 class TestGetSummary():
     '''class to test the 'get_summary' method'''

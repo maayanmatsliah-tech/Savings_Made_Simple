@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
-from savings_made_simple import (
+from src.savings_made_simple import (
     create_csv_if_not_exists, read_csv, update_start_finish_csv,
     append_to_csv, calculate_week, get_summary
 )
