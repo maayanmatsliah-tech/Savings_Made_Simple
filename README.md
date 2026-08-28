@@ -1,4 +1,4 @@
-# Greece Expense Tracker
+# Savings Made Simple
 
 A personal finance web app built with Flask to track weekly spending and monitor progress toward a savings goal — originally built while studying abroad in Greece.
 Live deployment can be found here: https://greece-expense-tracker.onrender.com/
